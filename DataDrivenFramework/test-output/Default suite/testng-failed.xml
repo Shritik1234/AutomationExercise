@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="automationPractice.testcases.RegisterUser">
+        <methods>
+          <include name="logout"/>
+          <include name="tearDown"/>
+          <include name="loginWithCorrectEmailnPass" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.RegisterUser -->
+      <class name="automationPractice.testcases.PlaceOrderRegisterBeforeCheckOut">
+        <methods>
+          <include name="tearDown"/>
+          <include name="placeOrderRegisterBeforeCheckOut"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.PlaceOrderRegisterBeforeCheckOut -->
+      <class name="automationPractice.testcases.ViewCategoryProducts">
+        <methods>
+          <include name="viewCategoryProducts"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.ViewCategoryProducts -->
+      <class name="automationPractice.testcases.ViewProduct">
+        <methods>
+          <include name="viewProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.ViewProduct -->
+      <class name="automationPractice.testcases.ContactUs">
+        <methods>
+          <include name="contactUs"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.ContactUs -->
+      <class name="automationPractice.testcases.PlaceOrderRegisterWhileCheckOut">
+        <methods>
+          <include name="placeOrderRegisterWhileCheckout"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.PlaceOrderRegisterWhileCheckOut -->
+      <class name="automationPractice.testcases.AddProductInCart">
+        <methods>
+          <include name="addProductInCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.AddProductInCart -->
+      <class name="automationPractice.testcases.ProductQuantityInCart">
+        <methods>
+          <include name="productQuantityInCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.ProductQuantityInCart -->
+      <class name="automationPractice.testcases.SearchProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchProduct"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.SearchProduct -->
+      <class name="automationPractice.testcases.RemoveProductFromCart">
+        <methods>
+          <include name="removeProductFromCart" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.RemoveProductFromCart -->
+      <class name="automationPractice.testcases.PlaceOrderLoginBeforeCheckOut">
+        <methods>
+          <include name="placeOrderLoginBeforeCheckOut" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.PlaceOrderLoginBeforeCheckOut -->
+      <class name="automationPractice.testcases.Subscription">
+        <methods>
+          <include name="subscriptionHomePage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="cartHomePage"/>
+        </methods>
+      </class> <!-- automationPractice.testcases.Subscription -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

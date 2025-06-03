@@ -1,0 +1,5 @@
+2025-05-31 16:31:04 INFO  TestcaseBase:61 - execution started !!!
+2025-05-31 16:31:12 INFO  TestcaseBase:18 - View Category Product Test
+2025-05-31 16:31:16 INFO  TestcaseBase:61 - Heading found: WOMEN - DRESS PRODUCTS
+2025-05-31 16:31:19 INFO  TestcaseBase:61 - Heading found: MEN - TSHIRTS PRODUCTS
+2025-05-31 16:31:19 INFO  TestcaseBase:26 - ==== View Category Products Test Completed ====

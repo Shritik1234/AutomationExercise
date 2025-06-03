@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-31T16:44:52 IST" name="Default suite" finished-at="2025-05-31T16:44:52 IST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2025-05-31T16:44:52 IST" name="Default test" finished-at="2025-05-31T16:44:52 IST" duration-ms="74">
+      <class name="automationPractice.testcases.ViewCartBrandProducts">
+        <test-method signature="viewCartBrandProducts()[pri:0, instance:automationPractice.testcases.ViewCartBrandProducts@1283bb96]" started-at="2025-05-31T16:44:52 IST" name="viewCartBrandProducts" finished-at="2025-05-31T16:44:52 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartBrandProducts -->
+      </class> <!-- automationPractice.testcases.ViewCartBrandProducts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "file:///D:/workspace/testng-1.0.dtd">
+<suite name="Data Driven FrameWork">
+
+<listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+     <listener class-name="automationPractice.listeners.CustomListeners" />
+</listeners>
+  
+  <test thread-count="5" name="Base Test " enabled="false">
+    <classes>
+      <class name="automationPractice.base.TestcaseBase"/>     
+    </classes>
+  </test>
+  <test thread-count="5" name="Login Test " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.LoginTestCase"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Register Test " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.RegisterUser"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Login Failed " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.LoginFailed"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Contact us " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ContactUs"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ViewProduct " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ViewProduct"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="SeacrhProduct " enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.SearchProduct"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Subscription" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.Subscription"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Add product in cart" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.AddProductInCart"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Product quantity in cart" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ProductQuantityInCart"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Place order while check out" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.PlaceOrderRegisterWhileCheckOut"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Place order before check out" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.PlaceOrderRegisterBeforeCheckOut"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Place order before check out" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.PlaceOrderLoginBeforeCheckOut"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Remove product from the cart" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.RemoveProductFromCart"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="view categories" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ViewCategoryProducts"/>     
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="view cart" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ViewCartBrandProducts"/>     
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="view card brands" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.ViewCartBrandProducts"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="search product and view card brands" enabled="false">
+    <classes>
+      <class name="automationPractice.testcases.SearchProductAndVerifyCart"/>     
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="add review on product" enabled="true">
+    <classes>
+      <class name="automationPractice.testcases.AddReviewInProducts"/>     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
